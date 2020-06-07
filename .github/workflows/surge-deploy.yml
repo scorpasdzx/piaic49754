@@ -30,8 +30,11 @@ jobs:
     - name: install npm
       uses: jaid/action-npm-install@v1.2.1
       
+    - name: build react app
+      run: npm run build  
+      
     - name: install surge
-     run: npm install -g surge
+      run: npm install -g surge
      
     - name: run surge
       run: surge ./build piaic49754-assign2.surge.sh --token${{ secrets.SURGE_TOKEN }}
