@@ -8,6 +8,7 @@ function Hi() {
     <li>Cars</li>
     <li>Bikes</li>
     <li>AeroPlanes</li>
+    <li>Boats</li>
     <li>{5+10}</li>
     </ul>
     </div>;
