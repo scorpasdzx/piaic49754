@@ -5,10 +5,10 @@ import './Hi.css';
 function Hi() {
   return <div className="App-header"> Hello <strong>Wajid Ali</strong><p>Lets see how an unordered list is rendered</p>
   <ul className="App-link">
-    <li>Cars</li>
-    <li>Bikes</li>
-    <li>AeroPlanes</li>
-    <li>Boats</li>
+    <li>Car</li>
+    <li>Bike</li>
+    <li>AeroPlane</li>
+    <li>Boat</li>
     <li>{5+10}</li>
     </ul>
     </div>;
